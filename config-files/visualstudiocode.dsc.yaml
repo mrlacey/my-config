@@ -9,5 +9,4 @@ properties:
       settings:
         id: Microsoft.VisualStudioCode
         source: winget
-        includeRecommended: true
   configurationVersion: 0.2.0

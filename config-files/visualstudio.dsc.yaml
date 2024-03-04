@@ -11,7 +11,7 @@ properties:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: vsPackagePreview
       directives:
-        description: Install Visual Studio 2022 Enterprise
+        description: Install Visual Studio 2022 Enterprise Preview
         allowPrerelease: true
       settings:
         id: Microsoft.VisualStudio.2022.Enterprise.Preview
@@ -23,7 +23,7 @@ properties:
         description: Install required VS workloads from vsconfig file
         allowPrerelease: true
       settings:
-        productId: Microsoft.VisualStudio.Product.Community
+        productId: Microsoft.VisualStudio.2022.Enterprise.Preview
         channelId: VisualStudio.17.Release
         vsConfigFile: '${WinGetConfigRoot}\.vsconfig'
         includeRecommended: true
@@ -42,7 +42,7 @@ properties:
         description: Install required VS workloads from vsconfig file
         allowPrerelease: true
       settings:
-        productId: Microsoft.VisualStudio.Product.Enterprise.Preview
+        productId: Microsoft.VisualStudio.2022.Enterprise
         channelId: VisualStudio.17.Release
         vsConfigFile: '${WinGetConfigRoot}\.vsconfig'
         includeRecommended: true

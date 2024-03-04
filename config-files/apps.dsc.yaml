@@ -2,7 +2,7 @@
 properties:
   resources:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: vsPackage
+      id: chrome
       directives:
         description: Install Chrome
         allowPrerelease: true
@@ -10,7 +10,7 @@ properties:
         id: Google.Chrome
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: vsPackage
+      id: GitHubDesktop
       directives:
         description: Install GitHub Desktop
         allowPrerelease: true

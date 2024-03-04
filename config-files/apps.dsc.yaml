@@ -16,4 +16,12 @@ properties:
       settings:
         id: Google.Chrome
         source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: vsPackage
+      directives:
+        description: Install GitHub Desktop
+        allowPrerelease: true
+      settings:
+        id: GitHub.GitHubDesktop
+        source: winget
   configurationVersion: 0.2.0

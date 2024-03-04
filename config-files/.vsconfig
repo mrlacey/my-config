@@ -121,7 +121,6 @@
     "Microsoft.NetCore.Component.Runtime.7.0"
   ],
   "extensions": [
-    "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2022",
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.DebugHelpContext",
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.KnownMonikersExplorer2022",
@@ -129,13 +128,10 @@
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Tweaks2022",
     "https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler2022",
     "https://marketplace.visualstudio.com/items?itemName=ProjectReunion.MicrosoftSingleProjectMSIXPackagingToolsDev17",
-    "https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.MauiEssentials",
     "https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.MauiAppAccelerator",
-    "https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.VsixTools2022",
     "https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer",
     "https://marketplace.visualstudio.com/items?itemName=unoplatform.uno-platform-addin-2022",
     "https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs",
-    "https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaVS",
     "https://marketplace.visualstudio.com/items?itemName=PaulHarrington.ComponentDiagnostics",
     "https://marketplace.visualstudio.com/items?itemName=mhutch.msbuildeditor",
     "https://marketplace.visualstudio.com/items?itemName=ChrisDexter.RunCoverletReportVs2022"

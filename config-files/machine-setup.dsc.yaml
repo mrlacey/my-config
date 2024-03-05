@@ -14,4 +14,30 @@ properties:
         allowPrerelease: true
       settings:
         Ensure: Present
+    - resource: Microsoft.Windows.Developer/HideFileExtensions
+      directives:
+        description: Hide file extensions
+        allowPrerelease: true
+      settings:
+        Ensure: Present
+    - resource: Microsoft.Windows.Developer/ShowTaskViewButton
+      directives:
+        description: Show task view button
+        allowPrerelease: true
+      settings:
+        Ensure: Present
+    - resource: Microsoft.Windows.Developer/ShowHiddenFiles
+      directives:
+        description: Show hidden files
+        allowPrerelease: true
+      settings:
+        Ensure: Present
+    - resource: Microsoft.Windows.Developer/HideTaskBarLabels
+      directives:
+        description: Never hide task bar labels
+        allowPrerelease: true
+      settings:
+        HideLabels: Never # 'WhenFull', 'Always'
+        # Use caution when setting `RestartExplorer: true` as this will force explorer to close.
+        RestartExplorer: true # Required to apply changes
   configurationVersion: 0.2.0

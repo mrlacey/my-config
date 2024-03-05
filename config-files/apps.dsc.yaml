@@ -17,4 +17,52 @@ properties:
       settings:
         id: GitHub.GitHubDesktop
         source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: WinMerge
+      directives:
+        description: Install WinMerge
+        allowPrerelease: true
+      settings:
+        id: WinMerge.WinMerge
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: AstroGrep
+      directives:
+        description: Install AstroGrep
+        allowPrerelease: true
+      settings:
+        id: AstroComma.AstroGrep
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: ScreenToGif
+      directives:
+        description: Install ScreenToGif
+        allowPrerelease: true
+      settings:
+        id: NickeManarin.ScreenToGif
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: Notepad2
+      directives:
+        description: Install Notepad2
+        allowPrerelease: true
+      settings:
+        id: Notepad2
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: PowerToys
+      directives:
+        description: Install PowerToys
+        allowPrerelease: true
+      settings:
+        id: Microsoft.PowerToys
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: JetBrains.Rider
+      directives:
+        description: Install JetBrains.Rider
+        allowPrerelease: true
+      settings:
+        id: Notepad2
+        source: JetBrains.Rider
   configurationVersion: 0.2.0

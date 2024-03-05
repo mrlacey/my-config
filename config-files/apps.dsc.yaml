@@ -63,6 +63,6 @@ properties:
         description: Install JetBrains.Rider
         allowPrerelease: true
       settings:
-        id: Notepad2
-        source: JetBrains.Rider
+        id: JetBrains.Rider
+        source: winget
   configurationVersion: 0.2.0

@@ -123,7 +123,6 @@
   "extensions": [
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.DebugHelpContext",
-    "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.KnownMonikersExplorer2022",
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2",
     "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Tweaks2022",
     "https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler2022",

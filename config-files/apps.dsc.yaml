@@ -47,7 +47,7 @@ properties:
         description: Install Notepad2
         allowPrerelease: true
       settings:
-        id: Notepad2
+        id: zufuliu.notepad2
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: PowerToys
@@ -64,5 +64,13 @@ properties:
         allowPrerelease: true
       settings:
         id: JetBrains.Rider
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: Dropbox.Dropbox
+      directives:
+        description: Install Dropbox
+        allowPrerelease: true
+      settings:
+        id: Dropbox.Dropbox
         source: winget
   configurationVersion: 0.2.0

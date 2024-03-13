@@ -73,4 +73,12 @@ properties:
       settings:
         id: Dropbox.Dropbox
         source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: dotPDNLLC.paintdotnet
+      directives:
+        description: Install paintdotnet
+        allowPrerelease: true
+      settings:
+        id: dotPDNLLC.paintdotnet
+        source: winget
   configurationVersion: 0.2.0

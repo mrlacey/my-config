@@ -7,3 +7,6 @@ This is a list of other Visual Studio extensions to install that are not (yet) s
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2022
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.KnownMonikersExplorer2022
 - https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaVS
+
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SolutionColors
+- https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.ProXamlToolbox

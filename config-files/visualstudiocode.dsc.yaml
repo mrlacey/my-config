@@ -9,11 +9,4 @@ properties:
       settings:
         id: Microsoft.VisualStudioCode
         source: winget
-    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
-      id: Grammarly
-      directives:
-        description: Install Grammarly extension
-        allowPrerelease: false
-      settings:
-        Name: znck.grammarly
   configurationVersion: 0.2.0

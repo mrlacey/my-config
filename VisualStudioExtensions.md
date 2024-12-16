@@ -11,4 +11,5 @@ This is a list of other Visual Studio extensions to install that are not (yet) s
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VsixSynchronizer64
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SolutionColors
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityMargin
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ToggleEditorTooltips
 - https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaVS

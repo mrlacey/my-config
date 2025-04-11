@@ -1,0 +1,83 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+properties:
+  resources:
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: install-vs-code
+      directives:
+        description: Install Visual Studio Code
+      settings:
+        id: Microsoft.VisualStudioCode
+        source: winget
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-csharp-dev-kit
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install C# Dev Kit
+        allowPrerelease: true
+      settings:
+        name: ms-dotnettools.csdevkit
+        exist: true
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-markdownlint
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install DavidAnson.vscode-markdownlint
+        allowPrerelease: true
+      settings:
+        name: DavidAnson.vscode-markdownlint
+        exist: true
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-spellchecker
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install streetsidesoftware.code-spell-checker
+        allowPrerelease: true
+      settings:
+        name: streetsidesoftware.code-spell-checker
+        exist: true
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-docs-authoring-pack
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install docsmsft.docs-authoring-pack
+        allowPrerelease: true
+      settings:
+        name: docsmsft.docs-authoring-pack
+        exist: true
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-vscode-yaml
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install redhat.vscode-yaml
+        allowPrerelease: true
+      settings:
+        name: redhat.vscode-yaml
+        exist: true
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-presentation-buddy
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install mauricedebeijer.presentation-buddy
+        allowPrerelease: true
+      settings:
+        name: mauricedebeijer.presentation-buddy
+        exist: true
+    - resource: Microsoft.VSCode.Dsc/VSCodeExtension
+      id: install-vscode-github-actions
+      dependsOn:
+        - install-vs-code
+      directives:
+        description: Install GitHub.vscode-github-actions
+        allowPrerelease: true
+      settings:
+        name: GitHub.vscode-github-actions
+        exist: true
+
+  configurationVersion: 0.2.0
+  

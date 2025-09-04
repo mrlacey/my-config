@@ -13,3 +13,13 @@ This is a list of other Visual Studio extensions to install that are not (yet) s
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityMargin
 - https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ToggleEditorTooltips
 - https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaVS
+
+- https://marketplace.visualstudio.com/items?itemName=mhutch.MSBuildEditor
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SvgViewer
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VsixSynchronizer64
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VsctIntelliSense2022
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ToggleEditorTooltips
+- https://marketplace.visualstudio.com/items?itemName=MadsKristensen.PkgdefLanguage
+- https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer
+- https://marketplace.visualstudio.com/items?itemName=neuecc.OpenonGitHub
